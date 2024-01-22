@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """ A function that checks if an object is an instance
-    a specified class or inherited class. 
+    a specified class or inherited class.
 """
 
 
