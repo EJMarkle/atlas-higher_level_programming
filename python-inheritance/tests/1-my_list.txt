@@ -1,0 +1,5 @@
+# 1-my_list.txt
+
+>>> MyList = __import__('1-my_list').MyList
+
+>>>
