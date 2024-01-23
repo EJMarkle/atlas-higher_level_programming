@@ -11,3 +11,23 @@ Exception: area() is not implemented
 >>> bg.integer_validator("name", "Old Gregg")
 Traceback (most recent call last):
 TypeError: name must be an integer
+
+>>> bg.integer_validator(, "crumbs")
+Traceback (most recent call last):
+SyntaxError: invalid syntax
+
+>>> bg.integer_validator("name", None)
+Traceback (most recent call last):
+TypeError: name must be an integer
+
+>>> bg.integer_validator("name", (4, 5))
+Traceback (most recent call last):
+TypeError: name must be an integer
+
+>>> bg.integer_validator("name", [999])
+Traceback (most recent call last):
+TypeError: name must be an integer
+
+>>> bg.integer_validator(, 999)
+Traceback (most recent call last):
+SyntaxError: invalid syntax
