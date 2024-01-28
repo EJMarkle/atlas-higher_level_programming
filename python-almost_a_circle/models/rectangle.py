@@ -17,6 +17,15 @@ class Rectangle(Base):
         area = self.width * self.height
         return area
 
+    def display(self):
+        """ Prints a square of hashes w given height and width"""
+        h = self.height
+        w = self.width
+        for _ in range(h):
+            for _ in range(w):
+                print('#', end='')
+            print()
+
     @property
     def width(self):
         """ Width getter"""
