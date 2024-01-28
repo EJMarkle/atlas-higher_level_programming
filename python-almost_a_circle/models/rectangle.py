@@ -2,7 +2,7 @@
 """Creates the class Rectangle"""
 
 
-from base import Base
+from models.base import Base
 class Rectangle(Base):
     """ Sets width, height, x, and y of rectangle """
     def __init__(self, width, height, x=0, y=0, id=None):
