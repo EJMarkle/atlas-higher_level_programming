@@ -21,7 +21,11 @@ class Rectangle(Base):
         """ Prints a square of hashes w given height and width"""
         h = self.height
         w = self.width
+        for _ in range(self.y):
+            print()
         for _ in range(h):
+            for _ in range(self.x):
+                print(" ", end="")
             for _ in range(w):
                 print('#', end='')
             print()
