@@ -31,6 +31,7 @@ class Rectangle(Base):
             print()
 
     def update(self, *args):
+        """ handle args """
         attr = ["id", "width", "height", "x", "y"]
         for i, arg in enumerate(args):
             setattr(self, attr[i], arg)
