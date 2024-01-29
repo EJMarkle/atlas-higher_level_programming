@@ -30,6 +30,11 @@ class Rectangle(Base):
                 print('#', end='')
             print()
 
+    def update(self, *args):
+        attr = ["id", "width", "height", "x", "y"]
+        for i, arg in enumerate(args):
+            setattr(self, attr[i], arg)
+
     def __str__(self):
         """Returns string representation of Rectangle"""
         return "[Rectangle] ({}) {}/{} - {}/{}".format(self.id, self.x,
