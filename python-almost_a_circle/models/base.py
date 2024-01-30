@@ -22,7 +22,7 @@ class Base:
         else:
             return json.dumps(list_dictionaries)
 
-    @classmethod    
+    @classmethod
     def save_to_file(cls, list_objs):
         """Writes JSON representation of 'list_obj' to a file"""
         file = cls.__name__ + ".json"
