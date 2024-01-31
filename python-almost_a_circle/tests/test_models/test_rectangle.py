@@ -86,3 +86,6 @@ class TestRectangle(unittest.TestCase):
         self.assertEqual(r.x, 11)
 
         r.update(id=8, width=9, height=10, x=11, y=12)
+
+if __name__ == '__main__':
+    unittest.main()
