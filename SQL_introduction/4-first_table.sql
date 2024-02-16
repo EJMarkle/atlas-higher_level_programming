@@ -1,5 +1,5 @@
 -- Creates the table 'first_table' in current db
-CREATE TABLE first_table IF NOT EXISTS {
+CREATE TABLE IF NOT EXISTS first_table {
     id INT,
     name VARCHAR(256)
 }
