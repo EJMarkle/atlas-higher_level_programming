@@ -1,4 +1,4 @@
-#!/bin/python3
+#!/usr/bin/python3
 """
 Receives arguments 'mysql username' 'mysql password' 'database name'
 'state name searched'
