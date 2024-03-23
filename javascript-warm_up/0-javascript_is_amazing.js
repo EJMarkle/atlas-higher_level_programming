@@ -1,3 +1,3 @@
 #!/usr/bin/node
-const whatsAmazing = "Javascript is amazing";
-console.log(whatsAmazing)
+const myVar = "Javascript is amazing";
+console.log(myVar)
